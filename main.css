@@ -1,0 +1,41 @@
+body, input {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: semi-bold;
+}
+
+.list {
+  list-style-type: none;
+  width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.list_item {
+  border-bottom: 1px solid #91A368;
+  background-color: #DFE8C5;
+  padding: 10px;
+}
+
+.list_item_input {
+  border: none;
+  background-color: #DFE8C5;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  color: #91A368;
+}
+
+.list_item_input:focus {
+  outline: 0;
+}
+
+.list_item_wrapper.edit .list_item_text {
+  display: none;
+}
+
+.add_line {
+  color: #91A368;
+}
